@@ -13,16 +13,16 @@
 #__________________________________________________
 # PARAMETERS
 
-# Input: @s glib.var0 (score) : Vector in base with orientation x , y
-# Input: @s glib.var1 (score) : Vector in base with orientation x , y
-# Input: @s glib.var2 (score) : Vector in base with orientation x , y
+# Input: @s glib.var0 (score) : Component X of the vector in base with orientation x , y
+# Input: @s glib.var1 (score) : Component Y of the vector in base with orientation x , y
+# Input: @s glib.var2 (score) : Component Z of the vector in base with orientation x , y
 
 # Input: @s glib.var3 (score) : Horizontal rotation (a)
 # Input: @s glib.var4 (score) : Vertical rotation (b)
 
-# Output: @s glib.res0 (score) : Vector in base with orientation x+a , y+b
-# Output: @s glib.res1 (score) : Vector in base with orientation x+a , y+b
-# Output: @s glib.res2 (score) : Vector in base with orientation x+a , y+b
+# Output: @s glib.res0 (score) : Component X' of the vector in base with orientation x+a , y+b
+# Output: @s glib.res1 (score) : Component Y' of the vector in base with orientation x+a , y+b
+# Output: @s glib.res2 (score) : Component Z' of the vector in base with orientation x+a , y+b
 
 #__________________________________________________
 # INIT

@@ -5,6 +5,7 @@
 # - Powers of 2 (2,4,8,16,32,64,... to 4096)
 # - Powers of 10 (10,100,1000,... to 1000000)
 # - Prime numbers to 100
+# - min and max values
 # - Others: log(10)*10^6, log(10)*10^4, log(2)*10^4
 
 scoreboard objectives add glib.const dummy
@@ -128,6 +129,8 @@ scoreboard players set 1000000 glib.const 1000000
 scoreboard players set 2302585 glib.const 2302585
 scoreboard players set 405000000 glib.const 405000000
 scoreboard players set 324000000 glib.const 324000000
+scoreboard players set Max glib.const 2147483647
+scoreboard players set Min glib.const -2147483648
 
 # Particular numbers
 scoreboard players set Pi glib.const 3142

@@ -50,7 +50,7 @@ execute at @e[tag=glib.id.match,limit=1,sort=nearest] run function glib:orientat
 scoreboard players operation @s glib.var3 = @s glib.oriH
 scoreboard players operation @s glib.var4 = @s glib.oriV
 
-function glib:math/basis_rotation_3d
+function glib:math/algebra/basis_rotation_3d
 
 scoreboard players operation @s glib.link.lx = @s glib.res0
 scoreboard players operation @s glib.link.ly = @s glib.res1

@@ -59,7 +59,7 @@ execute at @s run function glib:orientation/get
 scoreboard players operation @s glib.var3 = @s glib.oriH
 scoreboard players operation @s glib.var4 = @s glib.oriV
 
-function glib:math/basis_rotation_3d
+function glib:math/algebra/basis_rotation_3d
 
 scoreboard players operation @s glib.vectorLeft = @s glib.res0
 scoreboard players operation @s glib.vectorUp = @s glib.res1

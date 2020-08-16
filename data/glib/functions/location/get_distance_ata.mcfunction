@@ -26,6 +26,6 @@ scoreboard players operation location.getDistance.var0 glib = @s glib.var0
 
 function glib:location/get_distance_squared_ata
 scoreboard players operation @s glib.var0 = @s glib.res0
-function glib:math/sqrt
+function glib:math/common/sqrt
 
 scoreboard players operation @s glib.var0 = location.getDistance.var0 glib

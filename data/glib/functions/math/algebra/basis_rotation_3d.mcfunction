@@ -47,22 +47,22 @@ scoreboard players operation basisRot.v glib = @s glib.var4
 
 # Cos(Theta)
 scoreboard players operation @s glib.var0 = basisRot.h glib
-function glib:math/cos
+function glib:math/trig/cos
 scoreboard players operation glib.cos.h glib = @s glib.res0
 
 # Sin(Theta)
 scoreboard players operation @s glib.var0 = basisRot.h glib
-function glib:math/sin
+function glib:math/trig/sin
 scoreboard players operation glib.sin.h glib = @s glib.res0
 
 # Cos(Phi)
 scoreboard players operation @s glib.var0 = basisRot.v glib
-function glib:math/cos
+function glib:math/trig/cos
 scoreboard players operation glib.cos.v glib = @s glib.res0
 
 # Sin(Phi)
 scoreboard players operation @s glib.var0 = basisRot.v glib
-function glib:math/sin
+function glib:math/trig/sin
 scoreboard players operation glib.sin.v glib = @s glib.res0
 
 # Vector Left

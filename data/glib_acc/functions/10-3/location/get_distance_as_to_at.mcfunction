@@ -27,4 +27,4 @@ function glib_acc:10-3/location/get_distance_squared_as_to_at
 
 scoreboard players operation @s glib.var0 = @s glib.res0
 
-function glib:math/sqrt
+function glib:math/common/sqrt

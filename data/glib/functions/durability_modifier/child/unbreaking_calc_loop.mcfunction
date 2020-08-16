@@ -20,7 +20,7 @@
 
 # CODE:
 
-function glib:math/random
+function glib:math/special/random
 scoreboard players operation @s glib.res0 %= 100 glib.const
 scoreboard players add @s glib.res0 1
 

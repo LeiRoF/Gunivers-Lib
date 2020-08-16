@@ -38,7 +38,7 @@ scoreboard players operation @s glib.var6 *= 2 glib.const
 scoreboard players operation @s glib.var6 += 1 glib.const
 
 #Random
-function glib:math/random
+function glib:math/special/random
 scoreboard players operation @s glib.res0 %= @s glib.var6 
 
 scoreboard players set @s glib.var0 0
@@ -49,7 +49,7 @@ execute if score @s glib.res0 <= @s glib.var4 run scoreboard players operation @
 scoreboard players operation @s glib.var0 += @s glib.var3
 
 #Random
-function glib:math/random
+function glib:math/special/random
 scoreboard players operation @s glib.res0 %= @s glib.var6 
 
 scoreboard players set @s glib.var2 0

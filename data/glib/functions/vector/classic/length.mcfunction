@@ -41,7 +41,7 @@ function glib:vector/classic/length_squared
 
 # sqrt(legnth^2)
 scoreboard players operation @s glib.var0 = @s glib.res0
-function glib:math/sqrt
+function glib:math/common/sqrt
 
 # Restoring Var0
 scoreboard players operation @s glib.var0 = vector.length.var0 glib
